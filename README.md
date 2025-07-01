@@ -7,12 +7,12 @@ Loxposed是一个基于LSPosed核心的免Root Xposed框架，通过修改软件
 ## 主要优点
 
 - 支持New XSharedPreferences，目前市面上通过修改安装包实现Xposed注入并支持该API的免Root Xposed框架几乎没有。
-- 对比LSPatch，该框架性能更好，软件的启动速度更快（每次重新安装修改过的软件后第一次启动速度较慢），内存占用也更少。
+- 对比LSPatch，该框架性能更好，软件的启动速度更快，内存占用也更少。
 
 ## 使用方法
 
 1. **修改文件夹名（可选）**  
-   修改Loxposed安装包中的`assets/loxdir.txt`，替换成自己喜欢的文件名。这个文件名会作为SD卡下放置注入软件修改后的安装包以及储存注入软件原始签名和New XSharedPreferences数据的文件夹名，然后安装。  
+   - 修改Loxposed安装包中的`assets/loxdir.txt`，替换成自己喜欢的文件名。这个文件名会作为SD卡下放置注入软件修改后的安装包以及储存注入软件原始签名和New XSharedPreferences数据的文件夹名，然后安装。  
    - 默认文件名为`Loxposed`。
 
 2. **授予文件访问权限**  
