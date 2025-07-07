@@ -6,7 +6,7 @@ Loxposed是一个基于LSPosed核心的免Root Xposed框架，通过修改软件
 
 ## 主要优点
 
-- 支持New XSharedPreferences，目前市面上通过修改安装包实现Xposed注入并支持该API的免Root Xposed框架几乎没有。
+- 支持Modern Xposed API（LSPosed API 100）, New XSharedPreferences, Remote Preferences（暂不支持监听数据变化）, Remote Files。
 - 对比LSPatch，该框架性能更好，软件的启动速度更快，内存占用也更少。
 
 ## 使用方法
@@ -32,4 +32,4 @@ Loxposed是一个基于LSPosed核心的免Root Xposed框架，通过修改软件
    - 在框架中开启该模块，并给予该模块所有文件访问权限即可激活使用。
 
 6. **刷新加载器和模块信息**
-   - 每次该框架被安装(比如第一次安装或更新)后都要在打开框架并点击右上角的菜单去刷新加载器，每次有模块被安装都要刷新模块信息或重新打开该框架。
+   - 每次该框架被安装（比如第一次安装或更新）后都要在打开框架并点击右上角的菜单去刷新加载器，每次有模块被安装都要刷新模块信息或重新打开该框架。
