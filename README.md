@@ -6,7 +6,7 @@ Loxposed是一个基于LSPosed核心的免Root Xposed框架，通过修改软件
 
 ## 主要优点
 
-- 支持Modern Xposed API（LSPosed API 100）, New XSharedPreferences, Remote Preferences（暂不支持监听数据变化）, Remote Files。
+- 支持Modern Xposed API（LSPosed API 100）, New XSharedPreferences, Remote Preferences, Remote Files。
 
 ## 使用方法
 
